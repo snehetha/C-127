@@ -1,0 +1,43 @@
+.heading{
+    font-size: 35px;
+    width: 100%;
+    margin: 0px;
+    background-color: pink;
+}
+.note{
+    color: black;
+    font-size: 25px;
+}
+.back_img{
+    background-image: url("images.jpg");
+    background-position: center;
+    
+}
+.div_speed{
+    float: left;
+
+}
+.div_volume{
+    float: right;
+}
+.div_speed_img{
+    width: 200px;
+    border-radius:100px ;
+
+}
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+canvas{
+border: 5px solid pink;
+border-radius: 20px;
+background-color: black;
+animation-name: Example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes Example{
+    from{box-shadow:  10px 10px 10px pink;}
+    to{box-shadow:  10px 10px 10px black;}
+}
